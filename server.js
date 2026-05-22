@@ -29,7 +29,7 @@ app.post('/transcrire', async (req, res) => {
       audioBuffer,
       {
         language: 'ar',
-        model: 'nova-2',
+        model: 'nova-3',
         punctuate: false,
         smart_format: false,
         mimetype: 'audio/mp4',
